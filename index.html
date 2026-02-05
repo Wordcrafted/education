@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Translation Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">My Portfolio</div>
+    <div class="lang-switch">
+      <button id="lang-button">NO → EN</button>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about" class="lang-text" data-no="Om meg" data-en="About Me">Om meg</a></li>
+      <li><a href="#work" class="lang-text" data-no="Arbeidseksempler" data-en="Work Samples">Arbeidseksempler</a></li>
+      <li><a href="#contact" class="lang-text" data-no="Kontakt" data-en="Contact">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h1 class="lang-text" data-no="Hei, jeg er oversetter" data-en="Hi, I am a translator">Hei, jeg er oversetter</h1>
+      <p class="lang-text" data-no="Jeg tilbyr oversettelser mellom norsk og engelsk." data-en="I offer translations between Norwegian and English.">
+        Jeg tilbyr oversettelser mellom norsk og engelsk.
+      </p>
+    </section>
+
+    <section id="work">
+      <h2 class="lang-text" data-no="Arbeidseksempler" data-en="Work Samples">Arbeidseksempler</h2>
+      <ul>
+        <li><a href="https://www.udir.no/" target="_blank" class="lang-text" data-no="Utdanningsdirektoratet" data-en="Norwegian Directorate for Education">Utdanningsdirektoratet</a></li>
+        <!-- Add more links as needed -->
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2 class="lang-text" data-no="Kontakt" data-en="Contact">Kontakt</h2>
+      <p class="lang-text" data-no="E-post: min@mail.no" data-en="Email: my@mail.com">E-post: min@mail.no</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 My Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
