@@ -1,5 +1,60 @@
-/portfolio-site
-├─ index.html
-├─ fagets-relevans.html
-├─ translation-case.html
-└─ style.css
+/* Reset & base */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f7f9;
+  color: #1f2937;
+  line-height: 1.6;
+  padding: 0 1rem;
+}
+
+/* Header & nav */
+header {
+  background-color: #ffffff;
+  border-bottom: 2px solid #e5e7eb;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo { font-weight: 700; font-size: 1.5rem; color: #0063fb; }
+nav a { margin-left: 1.5rem; text-decoration: none; color: #333; font-size: .95rem; }
+
+/* Breadcrumb */
+.breadcrumb { max-width: 860px; margin: 1rem auto; font-size: .9rem; color: #6b7280; }
+
+/* Main content */
+main {
+  max-width: 860px;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+h1 { font-size: 1.8rem; margin-bottom: .5rem; }
+.meta { font-size: .9rem; color: #6b7280; margin-bottom: 1rem; }
+.language-switcher { font-size: .9rem; margin-bottom: 1rem; }
+.content p { margin-bottom: 1rem; }
+
+/* Footer */
+footer {
+  background-color: #ffffff;
+  border-top: 2px solid #e5e7eb;
+  padding: 1rem 2rem;
+  max-width: 860px;
+  margin: 2rem auto 1rem;
+  font-size: .9rem;
+  color: #6b7280;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* Responsive for small screens */
+@media (max-width: 600px) {
+  header, main, footer { padding: 1rem; }
+  nav a { display: block; margin: 0.3rem 0 0; }
+}
