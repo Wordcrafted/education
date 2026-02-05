@@ -1,0 +1,66 @@
+/* Reset and basic layout */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #0055a5;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+header .lang-switch button {
+  background: white;
+  color: #0055a5;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+nav {
+  background: #eee;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0055a5;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
